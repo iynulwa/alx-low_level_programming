@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print alphabet in lowercase using only 'putchar'
+ * Print_alphabet - print alphabet in lowercase using only 'putchar'
  * Return: 0
  */
-void print_alpahbet(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
