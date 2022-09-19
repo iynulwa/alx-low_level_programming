@@ -16,9 +16,9 @@ void return_to_98(int *n)
 	n = 402;
 	p = &n;
 
-	putchar(n);
-	*p = 98
-	putchar(n);
+	printf("n=%d\n", n);
+	*p = 98;
+	printf("n=%d\n", n);
 
 	return (0);
 }
