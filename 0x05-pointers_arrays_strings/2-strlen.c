@@ -2,7 +2,8 @@
 
 /**
  * _strlen - counts number of character in string
- *@s: 
+ *@s: char type string
+ *Return: lenth of string
  */
 
 int _strlen(char *s)
@@ -11,5 +12,5 @@ int _strlen(char *s)
 
 	for (n = 0; *s != '\0'; s++)
 		n++;
-	return n;
+	return (n);
 }
