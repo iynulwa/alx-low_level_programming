@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest: string
- * @srt: string
+ * @dest: destination string
+ * @srt: source string
  * @n: number of element to concatenate in
  *
  * Return: pointer to resulting string `dest`
