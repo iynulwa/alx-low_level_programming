@@ -5,7 +5,7 @@
  * @dest: string
  * @srt: string
  * @n: number of element to concatenate in
- * Return: pointer to resulting string 'dest'
+ * Return: pointer to resulting string `dest`
  */
 
 char *_strncat(char *dest, char *src, int n)
