@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - compare two strings
- * @s1: char string
- * @s2: char string
+ * @s1: string
+ * @s2: string
  * Return: negative int if s1 < s2, o if matching, positive int if s1 > s2
  */
 
