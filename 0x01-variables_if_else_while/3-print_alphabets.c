@@ -7,18 +7,20 @@
  */
 int main(void)
 {
-	char x, Y;
+	char x;
 	x = 'a';
-	Y = 'A';
 
 	while (x <= 'z')
 	{
 		putchar (x);
 		x++;
 	}
-	while (Y <= 'Z')
-		putchar (Y);
-		Y++;
+	x = 'A';
+
+	while (x <= 'Z')
+	{
+		putchar (x);
+		x++;
 	}
 	putchar ('\n');
 	return (0);
