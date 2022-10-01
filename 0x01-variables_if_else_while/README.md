@@ -1,5 +1,5 @@
 # 0x01 Variables if else while
->Using of for, while and if functions in C files
+>for, while and if functions applications in C files
 
 ## Table of Content
 
