@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: Print numbers in base 10 from 0 to 9
- * using only putchar twice and without the use of 
+ * using only putchar twice and without the use of
  * printf, puts, etc
  * Return: 0
  */
