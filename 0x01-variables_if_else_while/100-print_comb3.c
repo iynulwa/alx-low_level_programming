@@ -17,6 +17,7 @@ int main(void)
 
 	while (i < 100)
 	{
+		i = 0;
 		if (j > k)
 		{
 			putchar (j + '0');
