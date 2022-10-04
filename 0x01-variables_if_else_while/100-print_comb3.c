@@ -12,6 +12,7 @@ int main(void)
 	int i, j, k;
 
 	k = i % 10;
+	i = 0;
 	j = i / 10;
 
 	while (i < 100)
