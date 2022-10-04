@@ -17,15 +17,17 @@ int main(void)
 		j = i / 10;
 		k = i % 10;
 		
-		if (i < 89)
+		if (k < j)
 		{
 			putchar (j + '0');
 			putchar (k + '0');
-			j++;
-			k++;
-		}
-		putchar (',');
-		putchar (' ');
+
+			if (i < 89)
+			{
+				putchar (',');
+				putchar (' ');
+			}
+
 		i++;
 	}
 	putchar ('\n');
