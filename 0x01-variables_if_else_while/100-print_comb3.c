@@ -9,19 +9,25 @@
  */
 int main(void)
 {
-	int i, j;
+	int i, j, k;
 
-	for (i = 0; i < 100; i++)
+	i = 0;
+	while (i < 100)
 	{
-		for (j = 0; j < 100; j++)
+		j = i / 10;
+		k = i % 10;
+		
+		if (i < 89)
 		{
-		putchar (i + '0');
-		putchar (j + '0');
+			putchar (j + '0');
+			putchar (k + '0');
+			j++;
+			k++;
 		}
 		putchar (',');
 		putchar (' ');
+		i++;
 	}
 	putchar ('\n');
-
 	return (0);
 }
