@@ -11,3 +11,8 @@
 * realloc.c
 * mul.c
 
+### By Joshua Iyanuoluwa
+
+#### ALX Software Engineering Progamming
+
+#### COHORT 9. Lagos, Nigeria.
