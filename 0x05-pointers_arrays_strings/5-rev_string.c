@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * rev_string -  reverse a string
- * @length: int variable that stores the length of string
- * @i: int variable
- * @j: int variable that stores the reverse of the string in numbers
- * @temp: char variable
+ * rev_string - reverse a string
+ * @s: string to reverse
+ * @length: int variable
+ * @i: int type variable
+ * @j: int type variable
+ * @temp: char type variable
  * Return: void
  */
 void rev_string(char *s)
