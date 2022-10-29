@@ -8,8 +8,8 @@
 int main(void)
 {
 	int i;
-
 	i = 0;
+
 	printf("%d is positive\n", i);
 
 	return(0);
